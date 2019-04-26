@@ -1,4 +1,4 @@
-package two;
+package medium._002;
 
 /**
  * <pre>
@@ -14,7 +14,7 @@ package two;
  *                 原因：342 + 465 = 807
  * </pre>
  */
-public class two {
+public class Solution {
 
     public static void main(String[] args) {
         ListNode l1 = new ListNode(3);

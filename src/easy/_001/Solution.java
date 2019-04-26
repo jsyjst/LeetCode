@@ -1,4 +1,4 @@
-package one;
+package easy._001;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,16 +16,15 @@ import java.util.Map;
  *
  * </pre>
  */
-public class one {
+public class Solution {
     public static void main(String[] args){
         int[] nums = {0,3,6,9,7,8};
         int[] index ;
         index=Solution.twoSum(nums,14);
         System.out.println(""+index[0]+""+index[1]);
     }
-}
-class Solution {
-    public static int[] twoSum(int[] nums, int target) {
+
+    private static int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
