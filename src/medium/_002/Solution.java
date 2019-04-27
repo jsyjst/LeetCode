@@ -26,54 +26,52 @@ public class Solution {
             System.out.println(L.val);
             L = L.next;
         }
+
     }
 
-
-    static class Solution {
-        public  static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-            ListNode result = new ListNode((l1.val + l2.val)%10);
-            int carry =0;
-            ListNode head;
-            head = result;
-            while (l1.next != null && l2.next != null) {
-                if(l1.val + l2.val + carry>= 10) {
-                    carry = 1;
-                } else {
-                    carry = 0;
-                }
-                result.next = new ListNode((l1.next.val + l2.next.val+ carry)%10);
-                l1 = l1.next;l2 = l2.next;result = result.next;
-            }
-            if(l1.val + l2.val +carry >= 10) {
+    private static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode result = new ListNode((l1.val + l2.val)%10);
+        int carry =0;
+        ListNode head;
+        head = result;
+        while (l1.next != null && l2.next != null) {
+            if(l1.val + l2.val + carry>= 10) {
                 carry = 1;
             } else {
                 carry = 0;
             }
-            while (l2.next != null) {
-                result.next = new ListNode((l2.next.val+carry)%10);
-                l2 = l2.next;
-                if(l2.val+carry>=10){
-                    carry = 1;
-                }else{
-                    carry = 0;
-                }
-                result = result.next;
-            }
-            while (l1.next != null) {
-                result.next = new ListNode((l1.next.val+carry)%10);
-                l1 = l1.next;
-                if(l1.val+carry>=10){
-                    carry = 1;
-                }else{
-                    carry = 0;
-                }
-                result = result.next;
-            }
-            if(l1.next==null&&l2.next==null&& carry==1) {
-                result.next= new ListNode(1);
-            }
-            return head;
+            result.next = new ListNode((l1.next.val + l2.next.val+ carry)%10);
+            l1 = l1.next;l2 = l2.next;result = result.next;
         }
+        if(l1.val + l2.val +carry >= 10) {
+            carry = 1;
+        } else {
+            carry = 0;
+        }
+        while (l2.next != null) {
+            result.next = new ListNode((l2.next.val+carry)%10);
+            l2 = l2.next;
+            if(l2.val+carry>=10){
+                carry = 1;
+            }else{
+                carry = 0;
+            }
+            result = result.next;
+        }
+        while (l1.next != null) {
+            result.next = new ListNode((l1.next.val+carry)%10);
+            l1 = l1.next;
+            if(l1.val+carry>=10){
+                carry = 1;
+            }else{
+                carry = 0;
+            }
+            result = result.next;
+        }
+        if(l1.next==null&&l2.next==null&& carry==1) {
+            result.next= new ListNode(1);
+        }
+        return head;
     }
 
     static class ListNode {
