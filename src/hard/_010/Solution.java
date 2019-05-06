@@ -56,7 +56,6 @@ public class Solution {
 
 
     public static boolean isMatch(String s, String p) {
-        s.ma
         if (p.contains(s)) return true;
         if (!p.contains("*") && !p.contains(".")) return false;
         StringBuilder pBuilder = new StringBuilder();
