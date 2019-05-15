@@ -1,5 +1,7 @@
 package medium._002;
 
+import common.ListNode;
+
 /**
  * <pre>
  *     author : 残渊
@@ -72,14 +74,5 @@ public class Solution {
             result.next= new ListNode(1);
         }
         return head;
-    }
-
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
     }
 }
