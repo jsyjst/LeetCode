@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c32ecece-708c-4f18-a86f-6071a391cca3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/medium/_022/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium/_024/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -68,24 +68,24 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="13531" />
+          <entry key="java" value="13916" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13531" />
+          <entry key="JAVA" value="13916" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="33" />
+          <entry key="java" value="34" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="33" />
+          <entry key="JAVA" value="34" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -96,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/_021/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="120">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/medium/_022/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="975">
@@ -115,6 +115,15 @@
                 <element signature="e#275#276#0" expanded="true" />
                 <element signature="e#311#312#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/medium/_024/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -167,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/easy/_020/Solution.java" />
         <option value="$PROJECT_DIR$/src/easy/_021/Solution.java" />
         <option value="$PROJECT_DIR$/src/medium/_022/Solution.java" />
+        <option value="$PROJECT_DIR$/src/medium/_024/Solution.java" />
       </list>
     </option>
   </component>
@@ -218,6 +228,19 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="_021" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -326,7 +349,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986577" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -526,8 +549,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/_021/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -543,6 +566,13 @@
             <element signature="e#275#276#0" expanded="true" />
             <element signature="e#311#312#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/_024/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
