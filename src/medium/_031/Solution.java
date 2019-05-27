@@ -46,6 +46,7 @@ public class Solution {
                 i--;
             }
         }
+        //如果不存在下一个更大的排列，则升序排列
         Arrays.sort(nums);
     }
 
