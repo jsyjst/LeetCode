@@ -22,6 +22,7 @@ public class Solution {
         int[] index ;
         index=Solution.twoSum(nums,14);
         System.out.println(""+index[0]+""+index[1]);
+
     }
 
     private static int[] twoSum(int[] nums, int target) {
