@@ -25,7 +25,8 @@ public class Solution {
         int high = nums.length - 1;
         int mid;
         while (low <= high) {
-            mid = (low + high) / 2;
+            //mid = (low + high) / 2;  这句语句有可能造成溢出，比如low跟high都很大，两者相加有可能溢出
+            mid = low+(high-low)/2;
             if (nums[mid] == target) {
                 low = mid;
                 high = mid;

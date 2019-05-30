@@ -66,7 +66,8 @@ public class Solution {
      * @return 找不到返回-1
      */
     public static int binarySearch(int[] nums,int target,int low,int high){
-        int mid = (low+high)/2;
+       // int mid = (low+high)/2; 这句语句有可能造成溢出，比如low跟high都很大，两者相加有可能溢出
+        int mid = low+(high-low)/2;
         if(target == nums[mid]){
             return mid;
         }
