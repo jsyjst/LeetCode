@@ -36,19 +36,16 @@ public class Solution {
         ListNode headNew = new ListNode(-1);
         headNew.next = head;
         ListNode pre = headNew;
-        int i = n-m;
-        while (m>0) {
-            m--;
-            if(m == 1) pre = head;
-            head = head.next;
+        //找到m的前一个结点，pre指向1
+        for (int i = 0; i < m-1; i++)  pre = pre.next;
+        ListNode start = pre.next;//指向2
+        ListNode tail = start.next;//指向3
+        for (int i = 0; i < n-m; i++) {
+            start.next = tail.next;
+            tail.next = pre.next;
+            pre.next = tail;
+            tail = start.next;
         }
-        ListNode p3 = pre.next;
-        while (i-- > 0) {
-            ListNode nextNode = head.next;
-            nextNode.next = head;
-            head = nextNode;
-        }
-        pre.next = 
         return headNew.next;
     }
 }

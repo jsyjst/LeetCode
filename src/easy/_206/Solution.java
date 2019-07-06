@@ -23,4 +23,24 @@ public class Solution {
         }
         return pre;
     }
+
+    /**
+     * 插入法
+     * @param head
+     * @return
+     */
+    public ListNode reverseListMine(ListNode head) {
+        if(head == null||head.next == null) return head;
+        ListNode headNew = new ListNode(-1);
+        headNew.next = head;
+        ListNode start = headNew.next;
+        ListNode tail = start.next;
+        while (tail!=null){
+            start.next = tail.next;
+            tail.next = headNew.next;
+            headNew.next = tail;
+            tail = start.next;
+        }
+        return headNew.next;
+    }
 }
