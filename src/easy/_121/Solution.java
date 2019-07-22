@@ -21,6 +21,13 @@ public class Solution {
      * 解释: 在这种情况下, 没有交易完成, 所以最大利润为 0。
      */
     public int maxProfit(int[] prices) {
-
+        if(prices.length == 0) return 0;
+        int minPrices = prices[0];
+        int profit = 0;
+        for (int i = 1; i < prices.length; i++) {
+            minPrices = Math.min(prices[i],minPrices);
+            profit = Math.max(prices[i] - minPrices, profit);
+        }
+        return profit;
     }
 }
