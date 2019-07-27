@@ -1,6 +1,6 @@
 package easy._108;
 
-import common.TreeNode;
+import common.tree.TreeNode;
 
 /**
  * <pre>

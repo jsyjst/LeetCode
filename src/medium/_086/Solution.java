@@ -1,6 +1,6 @@
 package medium._086;
 
-import common.ListNode;
+import common.tree.ListNode;
 
 /**
  * <pre>

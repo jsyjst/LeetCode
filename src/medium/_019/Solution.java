@@ -1,9 +1,8 @@
 package medium._019;
 
-import common.ListNode;
+import common.tree.ListNode;
 
 import java.util.HashMap;
-import java.util.List;
 
 /**
  * <pre>

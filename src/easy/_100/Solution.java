@@ -1,8 +1,6 @@
 package easy._100;
 
-import common.TreeNode;
-
-import java.text.DateFormatSymbols;
+import common.tree.TreeNode;
 
 /**
  * <pre>

@@ -1,10 +1,8 @@
 package easy._104;
 
-import common.TreeNode;
+import common.tree.TreeNode;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 
 /**

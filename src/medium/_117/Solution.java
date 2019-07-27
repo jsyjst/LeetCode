@@ -1,6 +1,6 @@
 package medium._117;
 
-import common.Node;
+import common.tree.Node;
 
 import java.util.LinkedList;
 import java.util.Queue;

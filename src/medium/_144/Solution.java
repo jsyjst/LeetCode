@@ -1,6 +1,6 @@
 package medium._144;
 
-import common.TreeNode;
+import common.tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

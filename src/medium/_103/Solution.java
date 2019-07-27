@@ -1,6 +1,6 @@
 package medium._103;
 
-import common.TreeNode;
+import common.tree.TreeNode;
 
 import java.util.*;
 

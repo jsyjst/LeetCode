@@ -1,6 +1,6 @@
 package medium._106;
 
-import common.TreeNode;
+import common.tree.TreeNode;
 
 import java.util.HashMap;
 import java.util.Map;

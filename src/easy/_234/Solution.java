@@ -1,6 +1,6 @@
 package easy._234;
 
-import common.ListNode;
+import common.tree.ListNode;
 
 /**
  * <pre>

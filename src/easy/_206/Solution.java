@@ -1,8 +1,6 @@
 package easy._206;
 
-import common.ListNode;
-
-import java.util.List;
+import common.tree.ListNode;
 
 /**
  * <pre>

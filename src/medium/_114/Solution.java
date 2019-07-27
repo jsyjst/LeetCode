@@ -1,6 +1,6 @@
 package medium._114;
 
-import common.TreeNode;
+import common.tree.TreeNode;
 
 /**
  * <pre>

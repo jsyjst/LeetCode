@@ -1,6 +1,6 @@
 package hard._095;
 
-import common.TreeNode;
+import common.tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

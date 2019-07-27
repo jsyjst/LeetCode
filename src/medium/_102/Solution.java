@@ -1,7 +1,6 @@
 package medium._102;
 
-import common.ListNode;
-import common.TreeNode;
+import common.tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
