@@ -8,7 +8,7 @@ package easy._191;
  * </pre>
  */
 public class Solution {
-    
+
     /**
      * 输入：00000000000000000000000000001011
      * 输出：3
