@@ -12,6 +12,16 @@ import java.util.LinkedList;
  * </pre>
  */
 public class Solution {
+
+    public static void main(String[] args){
+        char[][] grid ={
+                {'1','1','1','1','0'},
+                {'1','1','0','1','0'},
+                {'1','1','0','0','0'},
+                {'0','0','0','0','0'}
+        };
+        System.out.println(numIslands(grid));
+    }
     /**
      * 输入:
      * 11110
@@ -19,7 +29,7 @@ public class Solution {
      * 11000
      * 00000
      * 输出: 1
-     *
+     * <p>
      * 输入:
      * 11000
      * 11000
@@ -27,22 +37,56 @@ public class Solution {
      * 00011
      * 输出: 3
      */
-    public int numIslands(char[][] grid) {
-        if(grid.length==0) return 0;
-        if(grid[0].length == 0) return 0;
+
+    //BFS
+    public static int numIslands(char[][] grid) {
+        if (grid.length == 0) return 0;
+        if (grid[0].length == 0) return 0;
+        int res = 0;
         int row = grid.length;
         int rank = grid[0].length;
-        boolean[][] visited = new boolean[row][rank];
-        LinkedList<Character> queue = new LinkedList<>();
-        queue.offer(grid[0][0]);
+        LinkedList<Node> queue = new LinkedList<>();
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < rank; j++) {
-                if(visited[i][j]) continue;
-                if(grid[i][j] == '1'){
-                    
+                if (grid[i][j] == '1') {
+                    res++;
+                    grid[i][j] = 0;
+                    queue.offer(new Node(i, j));
+                    while (!queue.isEmpty()) {
+                        Node node = queue.remove();
+                        int i1 = node.row;
+                        int j1 = node.rank;
+                        if (j1+1 < rank && grid[i1][j1 + 1] == '1') {
+                            queue.offer(new Node(i1, j1 + 1));
+                            grid[i1][j1+1] = '0';
+                        }
+                        if (i1-1 >= 0 && grid[i1 - 1][j1] == '1') {
+                            queue.offer(new Node(i1 - 1, j1));
+                            grid[i1-1][j1] = '0';
+                        }
+                        if (i1+1 <row && grid[i1 + 1][j1] == '1') {
+                            queue.offer(new Node(i1 + 1, j1));
+                            grid[i1+1][j1] = '0';
+                        }
+                        if (j1-1 >= 0 && grid[i1][j1 - 1] == '1') {
+                            queue.offer(new Node(i1, j1 - 1));
+                            grid[i1][j1-1] = '0';
+                        }
+                    }
                 }
             }
         }
+        return res;
 
+    }
+
+   static class Node {
+        int row;
+        int rank;
+
+        Node(int row, int rank) {
+            this.row = row;
+            this.rank = rank;
+        }
     }
 }
