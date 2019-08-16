@@ -30,6 +30,6 @@ public class Solution {
      * 拓扑排序也可以通过 BFS 完成。
      */
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-
+        return true;
     }
 }
