@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c32ecece-708c-4f18-a86f-6071a391cca3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/_387/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium/_382/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium/_384/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/_976/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium/_386/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/_400/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/_400/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/medium/_341/NestedInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medium/_341/NestedInteger.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +63,7 @@
           <entry key="project.open.time.26" value="23" />
           <entry key="project.open.time.27" value="19" />
           <entry key="project.open.time.28" value="9" />
-          <entry key="project.open.time.29" value="7" />
+          <entry key="project.open.time.29" value="8" />
           <entry key="project.open.time.30" value="4" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.32" value="1" />
@@ -79,32 +78,32 @@
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.54" value="1" />
-          <entry key="project.opened" value="150" />
+          <entry key="project.opened" value="151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="100306" />
+          <entry key="java" value="101439" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="100306" />
+          <entry key="JAVA" value="101439" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="1" />
-          <entry key="java" value="340" />
+          <entry key="java" value="344" />
           <entry key="kt" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="340" />
+          <entry key="JAVA" value="344" />
           <entry key="Kotlin" value="1" />
           <entry key="XML" value="2" />
         </counts>
@@ -113,27 +112,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/medium/_384/Solution.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/_976/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+            <state relative-caret-position="345">
+              <caret line="32" selection-start-line="32" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-                <element signature="e#1377#1378#0" expanded="true" />
-                <element signature="e#1405#1406#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/easy/_387/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" selection-start-line="20" selection-end-line="28" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -156,9 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/easy/_303/NumArray.java" />
-        <option value="$PROJECT_DIR$/src/medium/_304/Solution.java" />
-        <option value="$PROJECT_DIR$/src/medium/_304/NumMatrix.java" />
         <option value="$PROJECT_DIR$/src/medium/_306/Solution.java" />
         <option value="$PROJECT_DIR$/src/medium/_307/Solution.java" />
         <option value="$PROJECT_DIR$/src/medium/_307/NumArray.java" />
@@ -183,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/medium/_368/Silution.java" />
         <option value="$PROJECT_DIR$/src/medium/_368/Solution.java" />
         <option value="$PROJECT_DIR$/src/medium/_347/Solution.java" />
-        <option value="$PROJECT_DIR$/src/medium/_341/NestedInteger.java" />
         <option value="$PROJECT_DIR$/src/medium/_341/NestedIterator.java" />
         <option value="$PROJECT_DIR$/src/medium/_343/Solution.java" />
         <option value="$PROJECT_DIR$/src/easy/_349/Solution.java" />
@@ -207,6 +191,10 @@
         <option value="$PROJECT_DIR$/src/medium/_382/Solution.java" />
         <option value="$PROJECT_DIR$/src/medium/_384/Solution.java" />
         <option value="$PROJECT_DIR$/src/easy/_387/Solution.java" />
+        <option value="$PROJECT_DIR$/src/medium/_341/NestedInteger.java" />
+        <option value="$PROJECT_DIR$/src/medium/_385/Solution.java" />
+        <option value="$PROJECT_DIR$/src/medium/_386/Solution.java" />
+        <option value="$PROJECT_DIR$/src/easy/_976/Solution.java" />
       </list>
     </option>
   </component>
@@ -366,8 +354,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19436997" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19705094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -409,21 +398,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/easy/_303.java" />
-    <entry file="file://$PROJECT_DIR$/src/medium/_304/NumMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/_303/NumArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/_300/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -620,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/medium/_341/NestedInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/_341/NestedIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -730,11 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="30" selection-start-line="30" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,10 +704,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/_387/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" selection-start-line="20" selection-end-line="28" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -755,18 +720,43 @@
           <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#1377#1378#0" expanded="true" />
-            <element signature="e#1405#1406#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/_387/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/medium/_385/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" selection-start-line="20" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="495">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/_386/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="45" selection-start-line="45" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/_341/NestedInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/_976/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" selection-start-line="32" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
