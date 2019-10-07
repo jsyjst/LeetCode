@@ -18,6 +18,17 @@ public class Solution {
      * 第11个数字在序列 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... 里是0，它是10的一部分。
      */
     public int findNthDigit(int n) {
-        return 0;
+        if(n<10) return n;
+        int len = 0;//单个数字的长度
+        long nextSize = (long)Math.pow(10,len)*(len+1)*9;
+
+        //确定n所处的位置
+        while (n>nextSize){
+            n-=nextSize;
+            len++;
+            nextSize = (long)Math.pow(10,len)*(len+1)*9;
+        }
+        String resStr = String.valueOf((long)Math.pow(10,len)+(n-1)/(len+1));
+        return resStr.charAt(n-(n-1)/(len+1)*(len+1)-1)-'0';
     }
 }
