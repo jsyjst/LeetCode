@@ -43,15 +43,15 @@ public class Solution {
     public List<Integer> preorderTraversalStack(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
-        TreeNode curr = root;
-        while (curr!=null||!stack.isEmpty()){
-            while (curr!=null){
-                res.add(curr.val);
-                stack.push(curr);
-                curr = curr.left;
-            }
-            curr = stack.pop();
-            curr = curr.right;
+        if(root == null) return res;
+        stack.push(root);
+        while (!stack.isEmpty()){
+            TreeNode node = stack.pop();
+            res.add(node.val);
+            //从右往左压入栈
+            if(node.right!=null) stack.push(node.right);
+            if(node.left!=null) stack.push(node.left);
+
         }
         return res;
     }
