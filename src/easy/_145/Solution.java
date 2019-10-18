@@ -28,7 +28,7 @@ public class Solution {
     }
 
     //栈
-    public List<Integer> postorderStack(TreeNode root) {
+    public List<Integer> postorderTraversalStack(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
         if(root == null) return res;
