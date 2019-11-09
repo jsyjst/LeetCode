@@ -1,4 +1,4 @@
-package easy;
+package easy._500;
 
 import java.util.ArrayList;
 import java.util.HashMap;
