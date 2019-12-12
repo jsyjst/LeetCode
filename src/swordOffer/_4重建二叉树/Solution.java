@@ -1,9 +1,8 @@
-package swordOffer.重建二叉树;
+package swordOffer._4重建二叉树;
 
 import common.tree.TreeNode;
 
 import java.util.HashMap;
-import java.util.TreeMap;
 
 /**
  * <pre>

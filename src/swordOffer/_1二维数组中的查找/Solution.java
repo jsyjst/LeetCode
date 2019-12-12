@@ -1,4 +1,4 @@
-package swordOffer.二维数组中的查找;
+package swordOffer._1二维数组中的查找;
 
 /**
  * <pre>

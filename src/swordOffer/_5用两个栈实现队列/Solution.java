@@ -1,4 +1,4 @@
-package swordOffer.用两个栈实现队列;
+package swordOffer._5用两个栈实现队列;
 
 import java.util.Stack;
 

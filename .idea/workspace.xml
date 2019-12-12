@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c32ecece-708c-4f18-a86f-6071a391cca3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/swordOffer/用两个栈实现队列/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swordOffer/_6旋转数组的最小数字/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swordOffer/_7变态跳台阶/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swordOffer/二维数组中的查找/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swordOffer/_1二维数组中的查找/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swordOffer/从尾到头打印链表/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swordOffer/_2从尾到头打印链表/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swordOffer/替换空格/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swordOffer/_3替换空格/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swordOffer/用两个栈实现队列/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swordOffer/_5用两个栈实现队列/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swordOffer/重建二叉树/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swordOffer/_4重建二叉树/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +67,7 @@
           <entry key="project.open.time.24" value="19" />
           <entry key="project.open.time.25" value="37" />
           <entry key="project.open.time.26" value="36" />
-          <entry key="project.open.time.27" value="33" />
+          <entry key="project.open.time.27" value="34" />
           <entry key="project.open.time.28" value="21" />
           <entry key="project.open.time.29" value="14" />
           <entry key="project.open.time.3" value="1" />
@@ -85,32 +91,32 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="237" />
+          <entry key="project.opened" value="238" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="144585" />
+          <entry key="java" value="144745" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="144585" />
+          <entry key="JAVA" value="144745" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="2" />
-          <entry key="java" value="498" />
+          <entry key="java" value="500" />
           <entry key="kt" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="498" />
+          <entry key="JAVA" value="500" />
           <entry key="Kotlin" value="2" />
           <entry key="XML" value="3" />
         </counts>
@@ -119,48 +125,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/swordOffer/重建二叉树/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/medium/_091/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-436">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/swordOffer/用两个栈实现队列/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/swordOffer/_7变态跳台阶/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-              <folding>
-                <element signature="e#184#193#0" expanded="true" />
-                <element signature="e#234#243#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/medium/_105/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="287">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -191,9 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/easy/_598/Solution.java" />
-        <option value="$PROJECT_DIR$/src/easy/_599/Solution.java" />
-        <option value="$PROJECT_DIR$/src/easy/_605/Solution.java" />
         <option value="$PROJECT_DIR$/src/easy/_606/Solution.java" />
         <option value="$PROJECT_DIR$/src/easy/_628/Solution.java" />
         <option value="$PROJECT_DIR$/src/easy/_643/Solution.java" />
@@ -242,6 +208,9 @@
         <option value="$PROJECT_DIR$/src/swordOffer/从尾到头打印链表/Solution.java" />
         <option value="$PROJECT_DIR$/src/swordOffer/重建二叉树/Solution.java" />
         <option value="$PROJECT_DIR$/src/swordOffer/用两个栈实现队列/Solution.java" />
+        <option value="$PROJECT_DIR$/src/swordOffer/旋转数组的最小数字/Solution.java" />
+        <option value="$PROJECT_DIR$/src/swordOffer/_6旋转数组的最小数字/Solution.java" />
+        <option value="$PROJECT_DIR$/src/swordOffer/_7变态跳台阶/Solution.java" />
       </list>
     </option>
   </component>
@@ -282,6 +251,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -309,7 +279,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,16 +303,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hard.DeadLock" />
-      <module name="Leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SafetyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hard.SafetyTest" />
       <module name="Leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -356,13 +318,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swordOffer.替换空格.Solution" />
-      <module name="Leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy._754.Solution" />
       <module name="Leetcode" />
@@ -370,20 +325,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swordOffer._3替换空格.Solution" />
+      <module name="Leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swordOffer._6旋转数组的最小数字.Solution" />
+      <module name="Leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.SafetyTest" />
       <item itemvalue="Application.DeadLock" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.DeadLock" />
-        <item itemvalue="Application.SafetyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -403,13 +372,13 @@
     <frame x="1913" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1575067" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15951742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.4805369" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.4805369" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986577" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -446,20 +415,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/easy/_645/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/_643/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="18" selection-start-line="18" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/_628/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -729,14 +684,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/swordOffer/替换空格/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/swordOffer/_3替换空格/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/swordOffer/二维数组中的查找/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/swordOffer/_1二维数组中的查找/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
@@ -750,20 +705,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/swordOffer/从尾到头打印链表/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/swordOffer/_2从尾到头打印链表/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" selection-start-line="15" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/swordOffer/重建二叉树/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,21 +722,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/swordOffer/_6旋转数组的最小数字/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swordOffer/_5用两个栈实现队列/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/_091/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-436">
+        <state relative-caret-position="25">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/swordOffer/用两个栈实现队列/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/swordOffer/_4重建二叉树/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="250">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
-            <element signature="e#184#193#0" expanded="true" />
-            <element signature="e#234#243#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swordOffer/_7变态跳台阶/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>

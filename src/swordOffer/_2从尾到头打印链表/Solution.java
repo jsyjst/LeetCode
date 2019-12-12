@@ -1,4 +1,4 @@
-package swordOffer.从尾到头打印链表;
+package swordOffer._2从尾到头打印链表;
 
 import common.list.ListNode;
 
