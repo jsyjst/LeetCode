@@ -1,6 +1,5 @@
-package easy._145;
+package 树.medium._145;
 
-import common.tree.Node;
 import common.tree.TreeNode;
 
 import java.util.ArrayList;

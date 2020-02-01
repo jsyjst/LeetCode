@@ -1,4 +1,4 @@
-package easy._070;
+package 动态规划.easy._070;
 
 /**
  * <pre>

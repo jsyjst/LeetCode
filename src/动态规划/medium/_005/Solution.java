@@ -1,4 +1,4 @@
-package medium._005;
+package 动态规划.medium._005;
 
 /**
  * <pre>
