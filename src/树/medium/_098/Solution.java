@@ -1,4 +1,4 @@
-package medium._098;
+package 树.medium._098;
 
 import common.tree.TreeNode;
 
@@ -33,13 +33,22 @@ public class Solution {
      * 解释: 输入为: [5,1,4,null,null,3,6]。
      *      根节点的值为 5 ，但是其右子节点值为 4 。
      */
-    TreeNode pre = null;
+    private TreeNode pre = null;
+    private boolean isValid = true;
     public boolean isValidBST(TreeNode root) {
-        if(root == null) return true;
-        if(!isValidBST(root.left)) return false;
-        if(pre != null && pre.val >= root.val) return false;
+       helper(root);
+       return isValid;
+    }
+
+    public void helper(TreeNode root){
+        if(root == null) return;
+        helper(root.left);
+        if(pre != null && root.val <= pre.val){
+            isValid = false;
+            return;
+        }
         pre = root;
-        return isValidBST(root.right);
+        helper(root.right);
     }
 
     //中序遍历，迭代
