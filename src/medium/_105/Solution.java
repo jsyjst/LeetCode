@@ -25,29 +25,23 @@ public class Solution {
      *     /  \
      *    15   7
      */
-    private int[] preorder;
-    private int[] inorder;
-    private int pre_index = 0;
-    Map<Integer,Integer> map = new HashMap<>();
+    private int[] pre;
+    private HashMap<Integer,Integer> map = new HashMap<>();
+    private int preIndex = 0;
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        this.preorder = preorder;
-        this.inorder = inorder;
-        for (int i = 0; i < inorder.length; i++) {
+        pre = preorder;
+        for(int i = 0 ; i < inorder.length; i++){
             map.put(inorder[i],i);
         }
-        return help(0,inorder.length);
+        return helper(0,inorder.length-1);
     }
 
-    private TreeNode help(int left,int right){
-        if(left == right) return null;
-        int root_val = preorder[pre_index];
-        TreeNode root = new TreeNode(root_val);
-        int index = map.get(root_val);
-
-        pre_index++;
-        root.left = help(left,index);
-        root.right = help(index + 1,right);
-
+    public TreeNode helper(int start, int end){
+        if(start > end) return null;
+        TreeNode root = new TreeNode(pre[preIndex++]);
+        int index = map.get(root.val);
+        root.left = helper(start, index - 1);
+        root.right = helper(index + 1 , end);
         return root;
     }
 }

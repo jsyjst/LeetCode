@@ -22,17 +22,15 @@ public class Solution {
         for (int i = 0; i < in.length; i++) {
             map.put(in[i],i);
         }
-        return helper(0,pre.length);
+        return helper(0,pre.length-1);
 
     }
 
     private TreeNode helper(int left,int right){
-        if(left == right) return null;
-        int val = pre[preIndex++];
-        TreeNode root = new TreeNode(val);
-
-        int index = map.get(val);
-        root.left = helper(left,index);
+        if(left > right) return null;
+        TreeNode root = new TreeNode(pre[preIndex++]);
+        int index = map.get(root.val);
+        root.left = helper(left,index-1);
         root.right = helper(index+1,right);
         return root;
     }
