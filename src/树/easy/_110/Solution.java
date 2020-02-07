@@ -1,4 +1,4 @@
-package easy._110;
+package 树.easy._110;
 
 import common.tree.TreeNode;
 
@@ -32,17 +32,18 @@ public class Solution {
      *  4   4
      * 返回 false 。
      */
-    boolean res = true;
     public boolean isBalanced(TreeNode root) {
-        helper(root);
-        return res;
+        return helper(root) >= 0;
     }
 
-    private int helper(TreeNode root){
+    public int helper(TreeNode root){
         if(root == null) return 0;
-        int left = helper(root.left) ;
-        int right = helper(root.right);
-        if(Math.abs(left - right) > 1) res = false;
-        return Math.max(left,right) +1;
+        int leftNum = helper(root.left);
+        if(leftNum == -1) return -1;
+        int rightNum = helper(root.right);
+        if(rightNum == -1) return -1;
+        if(Math.abs(leftNum - rightNum) <= 1)
+            return Math.max(leftNum,rightNum) + 1;
+        else return -1;
     }
 }

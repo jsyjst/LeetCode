@@ -1,4 +1,4 @@
-package medium._113;
+package 树.medium._113;
 
 import common.tree.TreeNode;
 
@@ -30,20 +30,23 @@ public class Solution {
      *    [5,8,4,5]
      * ]
      */
+    private List<List<Integer>> res = new ArrayList<>();
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
-        List<List<Integer>> resList = new ArrayList<>();
-        if(root == null) return resList;
-        helper(resList,new ArrayList<>(),root,sum);
-        return resList;
+        helper(new ArrayList<>(),root,sum);
+        return res;
     }
 
-    private void helper(List<List<Integer>> resList,List<Integer> res,TreeNode root,int sum){
+    public void helper(List<Integer> resList,TreeNode root,int sum){
         if(root == null) return;
-        res.add(root.val);
-        if(root.left == null && root.right == null&& sum - root.val == 0) resList.add(new ArrayList<>(res));
-        helper(resList, res, root.left, sum-root.val);
-        helper(resList,res,root.right,sum - root.val);
-        res.remove(res.size() - 1);
+        sum -= root.val;
+        resList.add(root.val);
+        if(root.left == null && root.right == null && sum == 0){
+            res.add(new ArrayList<>(resList));
+        }
+        helper(resList,root.left,sum);
+        helper(resList,root.right,sum);
+        resList.remove(resList.size() - 1);
+
     }
 }
 

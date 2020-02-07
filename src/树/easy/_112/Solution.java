@@ -1,4 +1,4 @@
-package easy._112;
+package 树.easy._112;
 
 import common.tree.TreeNode;
 
