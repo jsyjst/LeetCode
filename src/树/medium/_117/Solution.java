@@ -1,9 +1,8 @@
-package medium._117;
+package 树.medium._117;
 
 import common.tree.Node;
 
 import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  * <pre>
@@ -15,17 +14,17 @@ import java.util.Queue;
  */
 public class Solution {
     public Node connect(Node root) {
-        if(root == null) return root;
-        Queue<Node> queue = new LinkedList<>();
-        queue.offer(root);
-        while (!queue.isEmpty()){
-            int len = queue.size();
+        if(root == null) return null;
+        LinkedList<Node> queue = new LinkedList<>();
+        queue.add(root);
+        while(!queue.isEmpty()){
+            int size = queue.size();
             Node pre = null;
-            for (int i = 0; i < len; i++) {
-                Node cur = queue.poll();
-                if(cur.right !=null) queue.offer(cur.right);
-                if(cur.left != null)  queue.offer(cur.left);
-                cur.next = pre;
+            for(int i = 0; i < size; i++){
+                Node cur = queue.remove();
+                if(pre != null) pre.next = cur;
+                if(cur.left != null) queue.offer(cur.left);
+                if(cur.right != null) queue.offer(cur.right);
                 pre = cur;
             }
         }
