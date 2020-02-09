@@ -1,4 +1,4 @@
-package medium._003;
+package 字符串.medium._003;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -65,17 +65,23 @@ public class Solution {
      * @param s 给定字符串
      * @return  不含有重复字符的最长子串的长度。
      */
-    private static int lengthOfLongestSubstringByHashMap(String s) {
-        int len = 0;
+    public static int lengthOfLongestSubstringByHashMap(String s) {
+        int size = s.length();
+        if(size <= 1) return size;
+        char[] chars = s.toCharArray();
         HashMap<Character,Integer> map = new HashMap<>();
-        for (int i = 0,j=0; j <s.length() ; j++) {
-            if(map.containsKey(s.charAt(j))){
-                i = Math.max(i,map.get(s.charAt(j)));
+        int start = 0, end = 0;
+        int res = 0;
+        while(start < size && end < size){
+            if(map.containsKey(chars[end]) && map.get(chars[end]) >= start){
+                res = Math.max(res,end - start);
+                start = map.get(chars[end]) + 1;
             }
-            len = Math.max(len,j-i+1);
-            map.put(s.charAt(j),j+1);
+            map.put(chars[end],end);
+            end++;
         }
-        return len;
+        res = Math.max(res,end - start);
+        return res;
     }
 
 }
