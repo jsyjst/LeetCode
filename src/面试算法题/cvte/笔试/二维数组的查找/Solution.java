@@ -1,4 +1,4 @@
-package 笔试编程题.cvte.二维数组的查找;
+package 面试算法题.cvte.笔试.二维数组的查找;
 
 /**
  * <pre>

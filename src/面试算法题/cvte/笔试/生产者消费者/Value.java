@@ -1,4 +1,4 @@
-package 笔试编程题.cvte.生产者消费者;
+package 面试算法题.cvte.笔试.生产者消费者;
 
 /**
  * <pre>
