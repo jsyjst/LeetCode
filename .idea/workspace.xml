@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c32ecece-708c-4f18-a86f-6071a391cca3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/动态规划/股票/_309/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/动态规划/股票/_714/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/排序算法/归并/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/排序算法/快排/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/排序算法/选择/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/_014/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/_014/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/字符串/easy/_014/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/排序算法/冒泡/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排序算法/冒泡/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数组/medium/_006/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数组/medium/_006/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/面试算法题/cvte/二面/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/面试算法题/cvte/二面/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +55,7 @@
     <session id="856661668">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="247" />
+          <entry key="project.closed" value="250" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="1" />
@@ -63,12 +69,12 @@
           <entry key="project.open.time.24" value="20" />
           <entry key="project.open.time.25" value="37" />
           <entry key="project.open.time.26" value="47" />
-          <entry key="project.open.time.27" value="37" />
+          <entry key="project.open.time.27" value="38" />
           <entry key="project.open.time.28" value="31" />
           <entry key="project.open.time.29" value="18" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="11" />
-          <entry key="project.open.time.31" value="4" />
+          <entry key="project.open.time.31" value="5" />
           <entry key="project.open.time.32" value="3" />
           <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.34" value="1" />
@@ -91,32 +97,32 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="286" />
+          <entry key="project.opened" value="288" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="147519" />
+          <entry key="java" value="149658" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="147519" />
+          <entry key="JAVA" value="149658" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="2" />
-          <entry key="java" value="574" />
+          <entry key="java" value="581" />
           <entry key="kt" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="574" />
+          <entry key="JAVA" value="581" />
           <entry key="Kotlin" value="2" />
           <entry key="XML" value="3" />
         </counts>
@@ -124,93 +130,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/字符串/easy/_013/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/面试算法题/cvte/二面/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/动态规划/medium/_120/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/动态规划/股票/_122/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/动态规划/股票/_123/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/动态规划/股票/_188/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/动态规划/股票/_309/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/medium/_139/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-              <folding>
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/动态规划/股票/_714/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -236,14 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/swordOffer/_21数组中出现次数超过一半的数字/Solution.java" />
-        <option value="$PROJECT_DIR$/src/swordOffer/_22字符串的排列/Solution.java" />
-        <option value="$PROJECT_DIR$/src/swordOffer/_22最小的k个数/Solution.java" />
-        <option value="$PROJECT_DIR$/src/swordOffer/_23二叉树的最小深度/Solution.java" />
-        <option value="$PROJECT_DIR$/src/swordOffer/cvte/Solution.java" />
-        <option value="$PROJECT_DIR$/src/swordOffer/cvte/SafeQueue.java" />
-        <option value="$PROJECT_DIR$/src/笔试编程题/cvte/SafeQueue.java" />
-        <option value="$PROJECT_DIR$/src/笔试编程题/cvte/生产者消费者/SafeQueue.java" />
         <option value="$PROJECT_DIR$/src/笔试编程题/cvte/二维数组的查找/Solution.java" />
         <option value="$PROJECT_DIR$/src/swordOffer/_24整数中1出现的次数/Solution.java" />
         <option value="$PROJECT_DIR$/src/swordOffer/_25把数组排成最小的数/Solution.java" />
@@ -280,13 +192,21 @@
         <option value="$PROJECT_DIR$/src/字符串/medium/_005/Solution.java" />
         <option value="$PROJECT_DIR$/src/字符串/medium/_008/Solution.java" />
         <option value="$PROJECT_DIR$/src/字符串/easy/_013/Solution.java" />
-        <option value="$PROJECT_DIR$/src/面试算法题/cvte/二面/Solution.java" />
         <option value="$PROJECT_DIR$/src/动态规划/medium/_120/Solution.java" />
         <option value="$PROJECT_DIR$/src/动态规划/股票/_122/Solution.java" />
         <option value="$PROJECT_DIR$/src/动态规划/股票/_123/Solution.java" />
         <option value="$PROJECT_DIR$/src/动态规划/股票/_188/Solution.java" />
         <option value="$PROJECT_DIR$/src/动态规划/股票/_714/Solution.java" />
         <option value="$PROJECT_DIR$/src/动态规划/股票/_309/Solution.java" />
+        <option value="$PROJECT_DIR$/src/medium/_139/Solution.java" />
+        <option value="$PROJECT_DIR$/src/动态规划/medium/_139/Solution.java" />
+        <option value="$PROJECT_DIR$/src/面试算法题/cvte/二面/Solution.java" />
+        <option value="$PROJECT_DIR$/src/排序算法/冒泡/Solution.java" />
+        <option value="$PROJECT_DIR$/src/数组/medium/_006/Solution.java" />
+        <option value="$PROJECT_DIR$/src/排序算法/选择排序/Solution.java" />
+        <option value="$PROJECT_DIR$/src/排序算法/快排/Solution.java" />
+        <option value="$PROJECT_DIR$/src/排序算法/归并/Solution.java" />
+        <option value="$PROJECT_DIR$/src/字符串/easy/_014/Solution.java" />
       </list>
     </option>
   </component>
@@ -297,10 +217,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="525" />
-    <option name="y" value="30" />
-    <option name="width" value="1400" />
-    <option name="height" value="520" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1099" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -343,33 +263,13 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="动态规划" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="动态规划" type="462c0819:PsiDirectoryNode" />
-              <item name="股票" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="面试算法题" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="面试算法题" type="462c0819:PsiDirectoryNode" />
-              <item name="cvte" type="462c0819:PsiDirectoryNode" />
+              <item name="排序算法" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -395,9 +295,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="动态规划.股票" />
-      <recent name="动态规划.medium" />
       <recent name="字符串.easy" />
+      <recent name="动态规划.medium" />
+      <recent name="动态规划.股票" />
       <recent name="字符串.medium" />
       <recent name="树.medium" />
     </key>
@@ -417,9 +317,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
-    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hard.DeadLock" />
+  <component name="RunManager" selected="Application.Solution (4)">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序算法.冒泡.Solution" />
       <module name="Leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -439,8 +339,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序算法.归并.Solution" />
+      <module name="Leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序算法.快排.Solution" />
+      <module name="Leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy._754.Solution" />
+      <option name="MAIN_CLASS_NAME" value="排序算法.选择.Solution" />
       <module name="Leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -468,17 +382,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DeadLock" />
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (4)" />
+        <item itemvalue="Application.Solution (5)" />
+        <item itemvalue="Application.Solution (4)" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.DeadLock" />
       </list>
     </recent_temporary>
   </component>
@@ -496,9 +412,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15281501" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15683647" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -541,48 +456,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/swordOffer/_17二叉树的层次遍历/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/swordOffer/_19复杂链表的复制/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/swordOffer/_19复杂链表的复制/RandomListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/swordOffer/_28两个链表的第一个公共节点/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/swordOffer/_27第一次只出现一次的字符/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/swordOffer/_18二叉树中和为某一值的路径/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/面试算法题/cvte/笔试/生产者消费者/Value.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -838,8 +711,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/面试算法题/cvte/二面/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="450">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -866,33 +739,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/动态规划/股票/_188/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
+        <state relative-caret-position="875">
           <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/动态规划/股票/_714/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/动态规划/股票/_309/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="475">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/medium/_139/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/动态规划/medium/_139/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-          <folding>
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1250">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/排序算法/冒泡/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/动态规划/股票/_714/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数组/medium/_006/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/排序算法/选择/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/排序算法/快排/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/字符串/easy/_014/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="70" column="25" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/排序算法/归并/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="42" column="47" lean-forward="true" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
         </state>
       </provider>
     </entry>

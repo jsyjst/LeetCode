@@ -16,7 +16,5 @@ public class Solution {
      * 输出:
      * 2
      */
-    public int findMaxCommonString(String s1, String s2){
 
-    }
 }
