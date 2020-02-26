@@ -1,4 +1,4 @@
-package medium._146;
+package 设计._146;
 
 import java.util.*;
 
@@ -42,31 +42,54 @@ public class LRUCache {
      */
 
 
-    private int capacity;
-    private LinkedHashMap<Integer, Integer> cache = new LinkedHashMap<>();
+//    private int capacity;
+//    private LinkedHashMap<Integer, Integer> cache = new LinkedHashMap<>();
+//
+//    public LRUCache(int capacity) {
+//        this.capacity = capacity;
+//    }
+//
+//    public int get(int key) {
+//        if (cache.containsKey(key)) {
+//            int value = cache.get(key);
+//            cache.remove(key);
+//            cache.put(key,value);
+//            return cache.get(key);
+//        }
+//        return -1;
+//    }
+//
+//    public void put(int key, int value) {
+//        if (cache.containsKey(key)){
+//            cache.remove(key);
+//        }else if(cache.size() == capacity) {
+//            Iterator<Map.Entry<Integer, Integer>> iterator = cache.entrySet().iterator();
+//            iterator.next();
+//            iterator.remove();
+//        }
+//        cache.put(key, value);
+//    }
+
+
+
+
+    private LinkedHashMap<Integer,Integer> map;
 
     public LRUCache(int capacity) {
-        this.capacity = capacity;
+
+        map = new LinkedHashMap<>(capacity,0.75f,true){
+            @Override
+            protected boolean removeEldestEntry(Map.Entry entry){
+                return map.size() > capacity;
+            }
+        };
     }
 
     public int get(int key) {
-        if (cache.containsKey(key)) {
-            int value = cache.get(key);
-            cache.remove(key);
-            cache.put(key,value);
-            return cache.get(key);
-        }
-        return -1;
+        return map.getOrDefault(key,-1);
     }
 
     public void put(int key, int value) {
-        if (cache.containsKey(key)){
-            cache.remove(key);
-        }else if(cache.size() == capacity) {
-            Iterator<Map.Entry<Integer, Integer>> iterator = cache.entrySet().iterator();
-            iterator.next();
-            iterator.remove();
-        }
-        cache.put(key, value);
+        map.put(key,value);
     }
 }
