@@ -1,4 +1,4 @@
-package easy._232;
+package 设计._232;
 
 import java.util.Stack;
 

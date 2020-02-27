@@ -1,4 +1,4 @@
-package easy._225;
+package 设计._225;
 
 import java.util.LinkedList;
 
