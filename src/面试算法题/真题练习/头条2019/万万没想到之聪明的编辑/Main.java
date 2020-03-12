@@ -17,71 +17,23 @@ public class Main {
         while (scanner.hasNextLine()) {
             int n = Integer.valueOf(scanner.nextLine());
             for (int i = 0; i < n; i++) {
-                String s = scanner.nextLine();
-                StringBuilder builder = new StringBuilder();
-                int repeat = 1;
-                int isAA = 0;
-                for (int i = 0; i < s.length(); i++) {
-                    char c = s.charAt(i);
-                    if (i != 0 && c == builder.charAt(builder.length() - 1)) {
-                        repeat++;
-                    } else {
-                        if (isAA > 1) isAA--;
-                        repeat = 1;
+                StringBuilder sb = new StringBuilder(scanner.nextLine());
+                for(int j = 2; j < sb.length();j++){
+                    //AAA型的
+                    if(sb.charAt(j) == sb.charAt(j - 1) && sb.charAt(j) == sb.charAt(j - 2)){
+                        sb.deleteCharAt(j);
+                        j--;
+                        //AABB型的
+                    }else if(j > 2 && sb.charAt(j-3) == sb.charAt(j-2) && sb.charAt(j-1) == sb.charAt(j)){
+                        sb.deleteCharAt(j);
+                        j--;
                     }
-                    //如果是AAA型，则跳过该次循环
-                    if (repeat == 3) {
-                        repeat--;
-                        continue;
-                        //如果是AABB型，也跳过该次循环
-                    } else if (repeat == 2) {
-                        if (isAA != 0) {
-                            repeat--;
-                            continue;
-                        } else {
-                            isAA++;
-                        }
-                    }
-                    builder.append(c);
                 }
-                System.out.println(builder.toString());
+                System.out.println(sb.toString());
             }
         }
     }
-        public static ArrayList recover ( int n, String[] Strings){
-            ArrayList<String> res = new ArrayList<>();
-            if (n == 0) return res;
-            for (String s : Strings) {
-                StringBuilder builder = new StringBuilder();
-                int repeat = 1;
-                int isAA = 0;
-                for (int i = 0; i < s.length(); i++) {
-                    char c = s.charAt(i);
-                    if (i != 0 && c == builder.charAt(builder.length() - 1)) {
-                        repeat++;
-                    } else {
-                        if (isAA > 1) isAA--;
-                        repeat = 1;
-                    }
-                    //如果是AAA型，则跳过该次循环
-                    if (repeat == 3) {
-                        repeat--;
-                        continue;
-                        //如果是AABB型，也跳过该次循环
-                    } else if (repeat == 2) {
-                        if (isAA != 0) {
-                            repeat--;
-                            continue;
-                        } else {
-                            isAA++;
-                        }
-                    }
-                    builder.append(c);
-                }
-                res.add(builder.toString());
-            }
-            return res;
-        }
-    }
+}
+
 
 
