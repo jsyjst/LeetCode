@@ -1,4 +1,4 @@
-package medium._300;
+package 动态规划.medium._300;
 
 /**
  * <pre>
@@ -19,18 +19,19 @@ public class Solution {
     //动态规划
     public int lengthOfLIS(int[] nums) {
         int len = nums.length;
-        if(len<2) return len;
-        int dp[] = new int[len];
+        if(len <= 1) return len;
+        int res = 1;
+        int[] dp = new int[len];
         dp[0] = 1;
-        int maxI = 1;
-        for (int i = 1; i < len; i++) {
-            int maxJ = 0;
-            for (int j = 0; j < i; j++) {
-                if(nums[j]<nums[i]) maxJ = Math.max(maxJ,dp[j]);
+        for(int i = 1; i < len; i++){
+            dp[i] = 1;
+            for(int j = 0; j < i; j++){
+                if(nums[j] < nums[i]){
+                    dp[i] = Math.max(dp[i],dp[j] + 1);
+                }
             }
-            dp[i] = maxJ + 1;
-            maxI = Math.max(dp[i],maxI);
+            res = Math.max(res,dp[i]);
         }
-        return maxI;
+        return res;
     }
 }
