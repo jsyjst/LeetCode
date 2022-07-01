@@ -75,4 +75,35 @@ public class Solution {
         }
         return head;
     }
+
+    /**
+     * 题解
+     */
+    private static ListNode addTwoNumbersAnswer(ListNode l1, ListNode l2) {
+        ListNode result = null, p = null;
+        // 进位
+        int carry = 0;
+        while (l1 != null || l2 != null) {
+            int val1 = l1 != null ? l1.val : 0;
+            int val2 = l2 != null ? l2.val : 0;
+            int sum = val1 + val2 + carry;
+            carry = sum / 10;
+            if (result == null) {
+                result = p = new ListNode(sum % 10);
+            } else {
+                p.next = new ListNode(sum % 10);
+                p = p.next;
+            }
+            if (l1 != null) {
+                l1 = l1.next;
+            }
+            if (l2 != null) {
+                l2 = l2.next;
+            }
+        }
+        if (carry == 1) {
+            p.next = new ListNode(1);
+        }
+        return result;
+    }
 }
