@@ -30,8 +30,8 @@ public class Solution {
      * @param args
      */
     public static void main(String[] args){
-        String s="pwwkew";
-        System.out.println(Solution.lengthOfLongestSubstringByHashMap(s));
+        String s="abcabcbb";
+        System.out.println(Solution.lengthOfLongestSubstringByCommon(s));
     }
     /**
      * 滑动窗口
@@ -84,4 +84,23 @@ public class Solution {
         return res;
     }
 
+    // 复杂度n*n，双循环确定每个字母最长不重复的个数，然后取最大值
+    static int lengthOfLongestSubstringByCommon(String s) {
+        int res = 0;
+        HashSet<Character> hashSet;
+        for (int i = 0; i < s.length(); i++) {
+            int l = 1;
+            hashSet = new HashSet<>();
+            hashSet.add(s.charAt(i));
+            for (int j = i + 1; j < s.length(); j++) {
+                if (hashSet.contains(s.charAt(j))) {
+                    break;
+                }
+                hashSet.add(s.charAt(j));
+                l ++;
+            }
+            res = Math.max(res, l);
+        }
+        return res;
+    }
 }
