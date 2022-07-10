@@ -64,4 +64,23 @@ public class Solution {
         }
         return stack.empty();
     }
+
+    public static boolean isValid2(String s) {
+        //如果字符串的个数是奇数
+        if (s.length() % 2 != 0) return false;
+        Stack<Character> stack = new Stack<>();
+        //遍历字符串，如果字符和栈顶元素匹配则出栈，否则出栈
+        for (char c : s.toCharArray()) {
+            if (c == '(') {
+                stack.push(')');
+            } else if (c == '[') {
+                stack.push(']');
+            } else if (c == '{') {
+                stack.push('}');
+            } else if (stack.isEmpty() || stack.pop() != c) {
+                return false;
+            }
+        }
+        return stack.empty();
+    }
 }
