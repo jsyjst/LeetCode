@@ -41,4 +41,37 @@ public class Solution {
         }
         return head;
     }
+
+    /***
+     * 通过虚拟头处理头节点被移除的情况，然后一次遍历找到倒数第n+1个节点进行移除倒数第n个节点的操作
+     */
+    public ListNode removeNthFromEnd2(ListNode head, int n) {
+        // 使用虚拟头处理倒数第n个节点被移除的情况
+        ListNode dummy = new ListNode(-1);
+        dummy.next = head;
+        // 由于要移除倒数第n个节点，所以要找到倒数第n+1个节点的位置
+        ListNode p = findFromEnd(dummy, n + 1);
+        p.next = p.next.next;
+        return dummy.next;
+    }
+
+    /**
+     * 返回倒数第K个节点
+     * 设链表总共有n个节点，先让p1走k步，则剩下n-k;
+     * 然后p2开始跟p1一起走，则p2走了n-k步，刚好到达n-k+1个节点，也就是倒数第k个节点
+     */
+    public ListNode findFromEnd(ListNode head, int k) {
+        ListNode p1 = head;
+        ListNode p2 = head;
+        // 先让p1走k步, 则剩下 n-k步
+        for (int i = 0; i < k; i++) {
+            p1 = p1.next;
+        }
+        // p1走到尾走了n-k步，因此p2也走了n-k步，刚好到达n-k+1个节点，也就是倒数第K个节点
+        while (p1 != null) {
+            p1 = p1.next;
+            p2 = p2.next;
+        }
+        return p2;
+    }
 }
