@@ -1,4 +1,4 @@
-package medium._019;
+package 链表.medium._019;
 
 import common.list.ListNode;
 

@@ -1,7 +1,6 @@
-package easy._160;
+package 链表.easy._160;
 
 import java.util.HashSet;
-import java.util.List;
 
 /**
  * <pre>
@@ -65,12 +64,12 @@ public class Solution {
 
     //best
     public ListNode getIntersectionNodeBest(ListNode headA, ListNode headB) {
-        if(headA == null||headB == null) return null;
+        if (headA == null || headB == null) return null;
         ListNode A = headA;
         ListNode B = headB;
-        while (A!=B){
-            A = A == null?headB:A.next;
-            B = B == null ? headA:B.next;
+        while (A != B) {
+            A = A == null ? headB : A.next;
+            B = B == null ? headA : B.next;
         }
         return A;
     }
