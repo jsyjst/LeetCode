@@ -1,4 +1,4 @@
-package easy._026;
+package 数组.easy._026;
 
 /**
  * <pre>
@@ -33,16 +33,15 @@ public class Solution {
      * }
      */
     public int removeDuplicates(int[] nums) {
-        if(nums.length==0) return 0;
-        int len=0;
-        int i=1;
-        while (i<nums.length){
-            if(nums[i] == nums[len]){
-               i++;
-            }else {
-                nums[++len]=nums[i];
+        int len = nums.length;
+        if (len < 2) return len;
+        int slow = 0, fast = 1;
+        while (fast < len) {
+            if (nums[fast] != nums[slow]) {
+                nums[++slow] = nums[fast];
             }
+            fast++;
         }
-        return len+1;
+        return slow + 1;
     }
 }
