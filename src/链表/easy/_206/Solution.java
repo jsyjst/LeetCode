@@ -1,4 +1,4 @@
-package easy._206;
+package 链表.easy._206;
 
 import common.list.ListNode;
 
