@@ -1,4 +1,4 @@
-package easy._027;
+package 数组.easy._027;
 
 /**
  * <pre>

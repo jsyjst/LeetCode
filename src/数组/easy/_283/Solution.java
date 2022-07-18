@@ -1,6 +1,4 @@
-package easy._283;
-
-import java.util.Arrays;
+package 数组.easy._283;
 
 /**
  * <pre>
