@@ -1,4 +1,4 @@
-package medium._304;
+package 数组.medium._304;
 
 /**
  * <pre>
