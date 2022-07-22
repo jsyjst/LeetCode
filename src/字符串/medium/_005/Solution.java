@@ -9,42 +9,21 @@ package 字符串.medium._005;
  */
 public class Solution {
     public String longestPalindrome(String s) {
-        if(s.length() == 0||s.length() == 1) return s;
-        char[] c = s.toCharArray();
-        //用来遍历
-        int left,right;
-        //用来记录最后的下标
-        int start=0,end=0;
-        //用来记录回文子串的大小
-        int len = 0;
-        //以i为中心点
-        for(int i = 0;i < s.length() ;i++){
-            //奇数情况
-            left = i;
-            right = i;
-            while(left >= 0 && right <= s.length() - 1 && c[left] == c[right]){
-                left--;
-                right++;
-            }
-            if(right-left>len){
-                len = right - left;
-                start = left+1;
-                end = right-1;
-            }
-
-            //偶数情况
-            left = i;
-            right = i + 1;
-            while(left >= 0 && right <= s.length() - 1 && c[left] == c[right]){
-                left--;
-                right++;
-            }
-            if(right-left>len){
-                len = right - left;
-                start = left+1;
-                end = right-1;
-            }
+        String res = "";
+        for(int i = 0; i < s.length(); i++) {
+            String oddRes = palindrome(s, i, i);
+            String evenRes = palindrome(s, i, i+1);
+            res = oddRes.length() > res.length() ? oddRes : res;
+            res = evenRes.length() > res.length() ? evenRes : res;
         }
-        return s.substring(start,end+1);
+        return res;
+    }
+
+    public String palindrome(String s, int left, int right) {
+        while(left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            left--;
+            right++;
+        }
+        return s.substring(left + 1, right);
     }
 }
