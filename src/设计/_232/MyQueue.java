@@ -1,5 +1,6 @@
 package 设计._232;
 
+import java.util.LinkedList;
 import java.util.Stack;
 
 /**

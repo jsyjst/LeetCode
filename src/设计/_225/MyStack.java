@@ -28,11 +28,18 @@ public class MyStack {
 
     /** Push element x onto stack. */
     public void push(int x) {
-        queueIn.offer(x);
-        while (!queueOut.isEmpty()) queueIn.offer(queueOut.remove());
-        LinkedList<Integer> temp = queueIn;
-        queueIn = queueOut;
-        queueOut = temp;
+        // 单队列实现
+        int n = queueOut.size();
+        queueOut.offer(x);
+        for(int i = 0; i < n; i++) {
+            queueOut.offer(queueOut.poll());
+        }
+        // 双队列实现
+//        queueIn.offer(x);
+//        while (!queueOut.isEmpty()) queueIn.offer(queueOut.remove());
+//        LinkedList<Integer> temp = queueIn;
+//        queueIn = queueOut;
+//        queueOut = temp;
     }
 
     /** Removes the element on top of the stack and returns that element. */
