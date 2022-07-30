@@ -1,4 +1,4 @@
-package medium._114;
+package 树.medium._114;
 
 import common.tree.TreeNode;
 
@@ -30,16 +30,18 @@ public class Solution {
      *          \
      *           6
      */
-    TreeNode cur = null;
     public void flatten(TreeNode root) {
-        if(root == null) return;
-        if(cur != null){
-            cur.left = null;
-            cur.right = root;
-        }
-        cur = root;
-        TreeNode copyRight = root.right;
+        if (root == null) return;
         flatten(root.left);
-        flatten(copyRight);
+        flatten(root.right);
+        TreeNode leftNode = root.left;
+        TreeNode rightNode = root.right;
+        root.left = null;
+        root.right = leftNode;
+        TreeNode p = root;
+        while(p.right != null) {
+            p = p.right;
+        }
+        p.right = rightNode;
     }
 }

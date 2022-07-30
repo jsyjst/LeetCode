@@ -1,6 +1,8 @@
-package easy._226;
+package 树.easy._226;
 
 import common.tree.TreeNode;
+
+import java.util.LinkedList;
 
 /**
  * <pre>
@@ -31,6 +33,23 @@ public class Solution {
         root.right = invertTree(root.left);
         root.left = invertTree(rightNode);
         return root;
+    }
+
+    // 使用遍历的方式
+    public TreeNode invertTree1(TreeNode root) {
+        traversal(root);
+        return root;
+    }
+
+    public void traversal(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        TreeNode temp = root.right;
+        root.right = root.left;
+        root.left = temp;
+        traversal(root.left);
+        traversal(root.right);
     }
 
     //中序遍历
