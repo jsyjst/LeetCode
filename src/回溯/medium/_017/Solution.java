@@ -1,6 +1,8 @@
-package medium._017;
+package 回溯.medium._017;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -80,5 +82,35 @@ public class Solution {
             }
         }
         return result;
+    }
+
+    HashMap<Character, String> map = new HashMap<>();
+    List<String> res = new LinkedList<>();
+    StringBuilder track = new StringBuilder();
+    public List<String> letterCombinationsByDfs(String digits) {
+        if (digits.length() == 0) return res;
+        map.put('2', "abc");
+        map.put('3', "def");
+        map.put('4', "ghi");
+        map.put('5', "jkl");
+        map.put('6', "mno");
+        map.put('7', "pqrs");
+        map.put('8', "tuv");
+        map.put('9', "wxyz");
+        backtrack(digits, 0);
+        return res;
+    }
+
+    public void backtrack(String digits, int index) {
+        if (track.length() == digits.length()) {
+            res.add(track.toString());
+            return;
+        }
+        String s = map.get(digits.charAt(index));
+        for(int i = 0; i < s.length(); i++) {
+            track.append(s.charAt(i));
+            backtrack(digits, index + 1);
+            track.deleteCharAt(track.length() - 1);
+        }
     }
 }

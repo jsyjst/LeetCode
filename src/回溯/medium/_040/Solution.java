@@ -1,7 +1,7 @@
-package medium._040;
+package 回溯.medium._040;
 
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -18,7 +18,7 @@ public class Solution {
 
     public static void main(String[] args){
        int[] candidates = {10,1,2,7,6,1,5};
-        System.out.println(combinationSum2(candidates,8));
+        //System.out.println(combinationSum2(candidates,8));
     }
     /**
      * 示例 1:
@@ -39,28 +39,32 @@ public class Solution {
      *   [5]
      * ]
      */
-    public static List<List<Integer>> combinationSum2(int[] candidates, int target) {
-        List<List<Integer>> result = new ArrayList<>();
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);
-        backtrack(result,new ArrayList<>(),candidates,target,0);
-        return result;
+        List<List<Integer>> res = new LinkedList<>();
+        LinkedList<Integer> track = new LinkedList<>();
+        backtrack(res, track, candidates, target, 0, 0);
+        return res;
     }
 
-    private static void backtrack(List<List<Integer>> result,List<Integer> sumList,int[] candidates,int target,int start){
-        if(target<0) return;
-        if(target == 0){
-            //去重
-            if(!result.contains(new ArrayList<>(sumList))){
-                result.add(new ArrayList<>(sumList));
-            }
+    public void backtrack(List<List<Integer>> res,
+                          LinkedList<Integer> track,
+                          int[] candidates, int target, int start, int sum) {
+        if (target == sum) {
+            res.add(new LinkedList<>(track));
             return;
         }
-
-        for (int i = start; i < candidates.length; i++) {
-            if(candidates[i]> target) break;
-            sumList.add(candidates[i]);
-            backtrack(result,sumList,candidates,target - candidates[i],i+1);//i+1保证一个数只用一次
-            sumList.remove(sumList.size()-1);
+        if (sum > target) {
+            return;
+        }
+        for(int i = start; i < candidates.length; i++) {
+            if (i != start && candidates[i] == candidates[i-1]) {
+                continue;
+            }
+            sum += candidates[i];
+            track.add(candidates[i]);
+            backtrack(res, track, candidates, target, i + 1, sum);
+            sum -= track.removeLast();
         }
     }
 

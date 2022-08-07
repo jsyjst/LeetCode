@@ -1,7 +1,7 @@
-package medium._078;
+package 回溯.medium._078;
 
-import javax.swing.*;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -31,21 +31,19 @@ public class Solution {
      *   []
      * ]
      */
+    static List<List<Integer>> res = new LinkedList<>();
+    static LinkedList<Integer> track = new LinkedList<>();
     public static List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> resList = new ArrayList<>();
-        resList.add(new ArrayList<>());
-        if(nums.length == 0){
-            return resList;
-        }
-        backtrack(resList,new ArrayList<>(),nums,0);
-        return resList;
+        backtrack(nums, 0);
+        return res;
     }
-    private static void backtrack(List<List<Integer>> resList, List<Integer> res,int[] nums,int start){
-        for (int i = start; i < nums.length; i++) {
-            res.add(nums[i]);
-            resList.add(new ArrayList<>(res));
-            backtrack(resList, res, nums, i+1);
-            res.remove(res.size()-1);
+
+    public static void backtrack(int[] nums, int start) {
+        res.add(new LinkedList<>(track));
+        for(int i = start; i < nums.length; i++) {
+            track.add(nums[i]);
+            backtrack(nums, i + 1);
+            track.removeLast();
         }
     }
 }
